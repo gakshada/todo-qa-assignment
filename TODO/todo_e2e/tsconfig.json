@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Modern JavaScript
+    "module": "CommonJS", // Node.js module system
+    "moduleResolution": "Node", // Resolve node_modules
+    "esModuleInterop": true, // Allow import/export default
+    "resolveJsonModule": true, // Import JSON files
+    "strict": true, // Enable strict type-checking
+    "skipLibCheck": true, // Skip type checking of deps
+    "outDir": "dist" // Compiled output folder
+  }
+}
